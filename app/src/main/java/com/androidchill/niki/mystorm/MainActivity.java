@@ -36,9 +36,6 @@ public class MainActivity extends AppCompatActivity {
         double latitude = 37.8267;
         double longitude = -122.423;
 
-        //hide action bar
-        getSupportActionBar().hide();
-
         String forecastURL = "https://api.forecast.io/forecast/" + api_KEY + "/37.8267,-122.423";
 
         if(isNetworkAvailable()) {
